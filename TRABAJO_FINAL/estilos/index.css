@@ -1,0 +1,130 @@
+
+/* Importación de fuentes (google fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap');
+/* Selector universal, selecciona todos los elementos en un documento */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Encabezado */
+header {
+    padding: 40px 15px;
+    background-size: cover;
+}
+/* h1 del encabezado */
+header > h1 {
+    font-family: "Lilita One", sans-serif;
+    font-size: 3em;
+    margin: 0px;
+    text-align: center;
+    color: #B0F0FF;
+    text-shadow: black 3px 3px;
+}
+/* h2 del encabezado*/
+header > h2 {
+    text-align: center;
+    margin: 5px 0px 0px;
+    color:#7991CC;
+    font-family: 'Skranji', cursive;
+}
+/* General */
+body{
+    background-color: #2C4B99;
+}
+/* Barra de notificación */
+#barDeNoti{
+    color: gray;
+    font-size: 16px;
+    font-weight: 700;
+    background: #FFD3BD;
+    text-align: center;
+    padding: 8px;
+    text-transform: uppercase;
+    font-family: "Lilita One", sans-serif;
+}
+/* Barra de navegación */
+#navegar{
+    text-align: center;
+    padding: 14px 10px 14px 0px;
+    margin: 0;
+    background-color: #CC7E6C;
+}
+#navegar > li{
+    display: inline;
+    position: relative;
+    padding: 10px 16px;
+    margin-left: 10px;
+    border-radius: 20px;
+    font-family: sans-serif;
+    color: #fff;
+}
+#navegar >li:hover{
+    background-color: #FFD3BD;
+} 
+#navegar >li > a {
+    font-family: "Lilita One", sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+/* Se activa cuando el usuario se desplaza sobre un elemento con el cursor
+(puntero del mouse). */
+.producto:hover{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.20);
+    transition: .7s;
+}   
+.producto > figure{
+    overflow: hidden;
+}
+.producto:hover > img{
+    transform: scale(1.2);
+}
+/* Imagen del producto */
+.imagen{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: all .5s;
+}
+/* Datos del producto */
+.informacion > h2{
+    font-size: 1.4rem;
+    color: white;
+    font-family: 'Skranji', cursive;
+}
+/* Boton de agregar al carrito */
+.informacion > button{
+    padding: 10px 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    background: none;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+/* Precio del producto */
+.precio{
+    font-family: 'Skranji', cursive;
+    font-size: 25px;
+}
+/* Chat de WhatsApp */
+#chatWhatsApp{
+    width: 70px;
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+/* Pie de página */
+footer{
+    background-color: #B0F0FF;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+footer > p{
+    color:black;
+}

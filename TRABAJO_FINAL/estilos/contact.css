@@ -1,0 +1,92 @@
+/* Importación de fuentes (google fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap');
+/* Selector universal, selecciona todos los elementos en un documento */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Cuerpo de la pagina */
+body{
+    background-color: #B0F0FF;
+}
+/* Encabezado */
+header {
+    padding: 40px 15px;
+    background-color: #2C4B99;  
+    background-position: center;
+    background-size: cover;
+}
+/* h1 del encabezado */
+header > h1 {
+    font-family: "Lilita One", sans-serif;
+    font-size: 3em;
+    margin: 0px;
+    text-align: center;
+    color: #B0F0FF;
+    text-shadow: black 3px 3px;
+}
+/* h2 del encabezado*/
+header > h2 {
+    text-align: center;
+    margin: 5px 0px 0px;
+    color:#7991CC;
+    font-family: 'Skranji', cursive;
+}
+/* Barra de navegación */
+#navegar{
+    text-align: center;
+    padding: 14px 10px 14px 0px;
+    margin: 0;
+    background-color: #CC7E6C;
+}
+#navegar > li{
+    display: inline;
+    position: relative;
+    padding: 10px 16px;
+    margin-left: 10px;
+    border-radius: 20px;
+    font-family: sans-serif;
+    color: #fff;
+}
+#navegar >li:hover{
+    background-color: #FFD3BD;
+} 
+#navegar >li > a {
+    font-family: "Lilita One", sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+/* Contenido principal */
+main{
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    background-size: cover;
+    height: 55vh;
+    margin: 0 auto;
+    max-width: 1200px;
+    font-family: 'Skranji', cursive;
+}
+/* Formulario de contacto */
+#formContacto{
+    text-align: center;
+}
+/* Ubicación */
+#ubicanos{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    top:70px;
+    left:300px;
+}
+/* Chat de WhatsApp */
+   #chatWhatsApp{
+    z-index: 999;
+    width: 64px;
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}

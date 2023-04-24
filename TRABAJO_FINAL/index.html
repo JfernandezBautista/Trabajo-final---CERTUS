@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Principal</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="estilos/index.css">
+</head>
+<body>
+    <script src="js/custom.js"></script>
+    <!-- WhatsApp -->
+	<a target="_blank" href="https://wa.me/51921480200?text=Hola, quiero comprar!">
+		<img id="chatWhatsApp" src="productos/recursos/WhatsApp.svg" alt="Iniciar convsersación por WhatsApp">
+	</a>
+	<!-- Encabezado -->
+	<header>
+		<h1>Anime Perú</h1>
+		<h2>Seguridad, calidad y garantía</h2>
+
+        <div class="container-icon">
+            <div container-cart-icon></div>
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="icon-cart"
+            >
+                <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+                />
+            </svg>
+            <div class="count-products">
+                <span id="contador-productos">0</span>
+            </div>
+        </div>
+
+            <div class="container-cart-products hidden-cart">
+                <div class="row-product">
+                    <div class="cart-product">
+                        <div class="info-cart-product">
+                            <span class="cantidad-producto-carrito">1</span>
+                            <p class="titulo-producto-carrito">Zapatos Nike</p>
+                            <span class="precio-producto-carrito">$80</span>
+                        </div>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="icon-close"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M6 18L18 6M6 6l12 12"
+                            />
+                        </svg>
+                    </div>
+                    <div class="cart-total">
+                        <h3>Total:</h3>
+                        <span class="total-pagar">S/ 0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</header>
+    <!-- Barra de navegación -->
+    <nav> <!-- Navegación -->
+        <ul id="navegar"> <!-- Elemento no ordenado -->
+            <li><a href="#">Inicio</a></li> <!-- Item de lista -->
+            <li><a href="contact.html">Contacténos</a></li> <!-- Item de lista -->
+        </ul>
+    </nav>
+    <!-- Notificación -->
+    <div id="barDeNoti">Venta de productos - Catalogo escolar 2023</div>
+     <!-- Sección -->
+     <br>
+     <section class="contenedor-item row align-items-center">
+        <!-- Articulo 1 -->
+        <article class="producto col">
+            <!-- Imagen del producto -->
+            <figure>
+                <img class="imagen" src="productos/producto1.jpg" alt="ACC10 COLLAR TITANES RECLUTAS ESPADAS CRUZADAS - Plateado">
+            </figure>
+            <!-- Acerca del producto -->
+            <div class="informacion">
+                <h2>ACC10 COLLAR TITANES RECLUTAS ESPADAS CRUZADAS</h2>
+				<p class="precio"><em><strong>S/ 35.00</strong></em></p>
+				<!-- boton para añadir al carrito -->
+				<button>Añadir al carrito</button>
+            </div>
+        </article>
+        <!-- Articulo 2 -->
+        <article class="producto col">
+            <!-- Imagen del producto -->
+            <figure>
+                <img class="imagen" src="productos/producto2.jpg" alt="BATA DE BRAHMAN - negro y brazos color cebra">
+            </figure>
+            <!-- Acerca del producto -->
+            <div class="informacion">
+                <h2>BATA DE BRAHMAN</h2>
+				<p class="precio"><em><strong>S/ 120.00</strong></em></p>
+				<!-- boton para añadir al carrito -->
+				<button>Añadir al carrito</button>
+            </div>
+        </article>
+        <!-- Articulo 3 -->
+        <article class="producto col">
+            <!-- Imagen del producto -->
+            <figure>
+                <img class="imagen" src="productos/producto3.jpg" alt="ACC9 - Pulsera shinkegi bronce">
+            </figure>
+            <!-- Acerca del producto -->
+            <div class="informacion">
+                <h2>ACC9 PULSERA SHINGEKI BRONCE</h2>
+				<p class="precio"><em><strong>S/ 35.00</strong></em></p>
+				<!-- boton para añadir al carrito -->
+				<button>Añadir al carrito</button>
+            </div>
+        </article>
+        <div class="w-100"></div>
+        <!-- Articulo 4 -->
+        <article class="producto col">
+            <!-- Imagen del producto -->
+            <figure>
+                <img class="imagen" src="productos/producto4.jpg" alt="Capa Akatsuki - color negro nubes rojas">
+            </figure>
+            <!-- Acerca del producto -->
+            <div class="informacion">
+                <h2>CAPA AKATSUKI</h2>
+				<p class="precio"><em><strong>S/ 130.00</strong></em></p>
+				<!-- boton para añadir al carrito -->
+				<button>Añadir al carrito</button>
+            </div>
+        </article>
+        <!-- Articulo 5 -->
+        <article class="producto col">
+            <!-- Imagen del producto -->
+            <figure>
+                <img class="imagen" src="productos/producto5.jpg" alt="Capa de Tokio - color negro con kanjis amarillos">
+            </figure>
+            <!-- Acerca del producto -->
+            <div class="informacion">
+                <h2>CAPA DE TOKYO</h2>
+				<p class="precio"><em><strong>S/ 95.00</strong></em></p>
+				<!-- boton para añadir al carrito -->
+				<button>Añadir al carrito</button>
+            </div>
+        </article>
+        <!-- Articulo 6 -->
+        <article class="producto col">
+            <!-- Imagen del producto -->
+            <figure>
+                <img class="imagen" src="productos/producto6.jpeg" alt="RP10 Chaqueta con capucha naranja Naruto modo Kurama - amarillo y negro">
+            </figure>
+            <!-- Acerca del producto -->
+            <div class="informacion">
+                <h2>RP10 CHAQUETA CON CAPUCHA NARANJA NARUTO MODO KURAMA</h2>
+				<p class="precio"><em><strong>S/ 105.00</strong></em></p>
+				<!-- boton para añadir al carrito -->
+				<button>Añadir al carrito</button>
+            </div>
+        </article>
+        <div class="w-100"></div>
+        <!-- Articulo 7 -->
+        <article class="producto col">
+            <!-- Imagen del producto -->
+            <figure>
+                <img class="imagen" src="productos/producto7.jpeg" alt="Mochilas de anime">
+            </figure>
+            <!-- Acerca del producto -->
+            <div class="informacion">
+                <h2>MOCHILAS DE ANIME</h2>
+				<p class="precio"><em><strong>S/ 95.00</strong></em></p>
+				<!-- boton para añadir al carrito -->
+				<button>Añadir al carrito</button>
+            </div>
+        </article>
+        <!-- Articulo 8 -->
+        <article class="producto col">
+            <!-- Imagen del producto -->
+            <figure>
+                <img class="imagen" src="productos/producto8.jpeg" alt="Traje de cazador de demonios - negro">
+            </figure>
+            <!-- Acerca del producto -->
+            <div class="informacion">
+                <h2>TRAJE DE CAZADOR DE VAMPIROS</h2>
+				<p class="precio"><em><strong>S/ 165.00</strong></em></p>
+				<!-- boton para añadir al carrito -->
+				<button>Añadir al carrito</button>
+            </div>
+        </article>
+    </section>
+    <footer>
+        <p><strong>Producciones 2023 - Jaime</strong></p>
+    </footer>
+</body>
+</html>
